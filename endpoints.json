@@ -1,0 +1,19 @@
+{
+  "GET /api": {
+    "description": "get all api endpoints"
+  },
+  "GET /api/books": {
+    "description": "get all books"
+  },
+  "GET /api/books/:id": {
+    "description": "get a book by id"
+  },
+  "POST /api/books": {
+    "description": "post a book",
+    "example body": {
+      "title": "Catcher in the Rye",
+      "author": "John Wayne Parr",
+      "publishYear": 2001
+    }
+  }
+}
