@@ -10,7 +10,7 @@
     "preview": "vite preview",
     "install-client": "npm install",
     "build-client": "npm run build",
-    "start-client": "npm run start"
+    "start-client": "npm run dev"
   },
   "dependencies": {
     "axios": "^1.5.1",
