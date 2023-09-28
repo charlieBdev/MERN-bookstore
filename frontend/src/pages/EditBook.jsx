@@ -12,7 +12,7 @@ const EditBook = () => {
 	useEffect(() => {
 		setLoading(true);
 		axios
-			.get(`http://localhost:5555/api/books/${id}`)
+			.get(`https://mern-bookstore-nwrh.onrender.com/api/books/${id}`)
 			.then(({ data }) => {
 				setTitle(data.title);
 				setAuthor(data.author);
@@ -40,7 +40,7 @@ const EditBook = () => {
 		};
 		setLoading(true);
 		axios
-			.put(`http://localhost:5555/api/books/${id}`, data)
+			.put(`https://mern-bookstore-nwrh.onrender.com/api/books/${id}`, data)
 			.then(() => {
 				setLoading(false);
 				enqueueSnackbar('Book edited successfully', { variant: 'success' });
