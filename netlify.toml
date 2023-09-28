@@ -1,4 +1,4 @@
 [build]
 base = "./frontend" # Specify the directory where your frontend code is located
-command = "build-client" # Replace with your build command
+command = "npm run install-client && npm run build-client" # Replace with your build command
 publish = "./dist" # Replace with your build output directory
