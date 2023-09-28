@@ -18,7 +18,7 @@ app.use(cors())
 // Option 2 - Allow custom origins - PREFERRED
 // app.use(cors({
 //   // needs to be front end dep
-//   origin: 'https://mern-bookstore-nwrh.onrender.com',
+//   origin: 'https://cerulean-fudge-ecfc0d.netlify.app',
 //   methods: ['GET', 'POST', 'PUT', 'DELETE'],
 //   allowedHeaders: ['Content-Type']
 // }))
